@@ -1,2 +1,2 @@
 # fastai
-working notes from the fast.ai book Deep Learning for Coders with fast.ai and Pytorch
+Base for notes and code as part of fast.ai Deep Learning for Coders V5 live course with University of Queensland.
