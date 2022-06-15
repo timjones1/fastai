@@ -16,12 +16,19 @@ setting up environments on your own machine
 
 if we want to run downloaded scripts we will need to alter permissions as by default execution of files is disabled, we will need to use the `Chmod` program with the following flag:
 
-chmod -u+x setup-conda.sh
+`chmod -u+x setup-conda.sh`
 
-u -             for current user
-+               add permission
-x               for executing files
-setup-conda.sh  to this file
+`u`               for current user
+`+`               add permission
+`x `              for executing files
+`setup-conda.sh`  to this file
 
 once permissions have been updated we can executed the downloaded sh script file.
 
+Other shortcuts in linux:
+
+`Ctrl + r` : search bash history for matching commands, `del` to clear, `esc` to close.
+`Ctrl + l` : clear terminal screen
+`Ctrl + u` : Clear line
+`Ctrl + e` : move to start of line
+`Ctrl + a` : move to end of line
