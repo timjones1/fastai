@@ -33,6 +33,13 @@ Other shortcuts in linux:
 - `Ctrl + e` : move to start of line
 - `Ctrl + a` : move to end of line
 
+`!!` run last command
+`!` followed by some text will run last command matching that text
+
 Aliases can be very handy
 
 `alias jl = "jupyter lab"`
+
+Aliases will not be automatically be saved when you reopen your terminal, so if you want these aliases to persist then add them to your `.bashrc` file, which is run everytime you open your terminal
+
+
