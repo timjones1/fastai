@@ -42,7 +42,7 @@ Aliases can be very handy
 
 Aliases will not be automatically be saved when you reopen your terminal, so if you want these aliases to persist then add them to your `.bashrc` file, which is run everytime you open your terminal.
 
-I often use notepad++ to open large text files in windows and by adding the below alias to my `.bashrc` I can now use this editor from within the ubuntu terminal:
+I often use notepad++ to open large text files in windows and by adding the below alias to my `.bashrc` I can now use this editor from within the ubuntu terminal, i also had to add this file path to my system environment variables for it to work:
 
 `alias npp="/mnt/c/Program\ Files\ \(x86\)/Notepad++/Notepad++.exe"`
 
