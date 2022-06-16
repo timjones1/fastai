@@ -16,7 +16,7 @@ setting up environments on your own machine
 
 if we want to run downloaded scripts we will need to alter permissions as by default execution of files is disabled, we will need to use the `Chmod` program with the following flag:
 
-- `chmod -u+x setup-conda.sh`
+`chmod -u+x setup-conda.sh`
 
 - `u`               for current user
  -`+`               add permission
