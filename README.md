@@ -40,6 +40,13 @@ Aliases can be very handy
 
 `alias jl = "jupyter lab"`
 
-Aliases will not be automatically be saved when you reopen your terminal, so if you want these aliases to persist then add them to your `.bashrc` file, which is run everytime you open your terminal
+Aliases will not be automatically be saved when you reopen your terminal, so if you want these aliases to persist then add them to your `.bashrc` file, which is run everytime you open your terminal.
+
+I often use notepad++ to open large text files in windows and by adding the below alias to my `.bashrc` I can now use this editor from within the ubuntu terminal:
+
+`alias npp="/mnt/c/Program\ Files\ \(x86\)/Notepad++/Notepad++.exe"`
+
+I have been using nano in ubuntu which i prefer to vim for ease of use but I also like how easy it is to edit text in my traditional windows editor with the above alias as well.
+
 
 
