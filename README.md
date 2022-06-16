@@ -27,8 +27,12 @@ once permissions have been updated we can executed the downloaded sh script file
 
 Other shortcuts in linux:
 
-- `Ctrl + r` : search bash history for matching commands, `del` to clear, `esc` to close.
+- `Ctrl + r` : search `.bash_history` for matching commands, `del` to clear, `esc` to close. Jeremy copies and pastes from `.bash_history` to create scripts. 
 - `Ctrl + l` : clear terminal screen
 - `Ctrl + u` : Clear line
 - `Ctrl + e` : move to start of line
 - `Ctrl + a` : move to end of line
+
+Aliases can be very handy
+
+`alias jl = "jupyter lab"`
