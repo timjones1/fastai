@@ -48,5 +48,11 @@ I often use notepad++ to open large text files in windows and by adding the belo
 
 I have been using nano in ubuntu which i prefer to vim for ease of use but I also like how easy it is to edit text in my traditional windows editor with the above alias as well.
 
+### Walkthru 3
+
+working with drives in linux, with Paperspace they provide a drive with persistent storage in the `/storage` folder, to check the drives and space available use `df` which stands for disk free, use `df -h` for human readable space free.
+
+
+
 
 
