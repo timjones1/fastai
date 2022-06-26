@@ -32,6 +32,8 @@ Other shortcuts in linux:
 - `Ctrl + u` : Clear line
 - `Ctrl + e` : move to start of line
 - `Ctrl + a` : move to end of line
+-  `cd` to change to home directory
+-  `cd /
 
 `!!` run last command
 `!` followed by some text will run last command matching that text
