@@ -57,4 +57,9 @@ working with drives in linux, with Paperspace they provide a drive with persiste
 
 while working on the terminal if you want to delete everything to the left of the cursor position it is `Ctrl + U` , to delete everything to the right of the cursor it is `Ctrl + K`.
 
+if we want to use the final arguement of the previous line of a terminal command in our current command we can reference it using `!$`
+
+for example `mkdir /storage/cfg`
+now we can reference the arguement `/storage/cfg` in a new commmand for example `mv .local/ !$` which will move the `.local` folder to the `/storage/cfg` location
+
 
