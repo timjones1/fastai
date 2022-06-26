@@ -53,6 +53,8 @@ I have been using nano in ubuntu which i prefer to vim for ease of use but I als
 working with drives in linux, with Paperspace they provide a drive with persistent storage in the `/storage` folder, to check the drives and space available use `df` which stands for disk free, use `df -h` for human readable space free.
 
 
+### Walkthru 4
 
+while working on the terminal if you want to delete everything to the left of the cursor position it is `Ctrl + U` , to delete everything to the right of the cursor it is `Ctrl + K`.
 
 
