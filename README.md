@@ -52,6 +52,8 @@ I have been using nano in ubuntu which i prefer to vim for ease of use but I als
 
 working with drives in linux, with Paperspace they provide a drive with persistent storage in the `/storage` folder, to check the drives and space available use `df` which stands for disk free, use `df -h` for human readable space free.
 
+symlinks are very handy ways of making shortcuts between directories. they can be created using `ln -s` command. In the walkthru, Jeremy makes symlinks between the persistent storage area provided by Paperspace and the temporary directories where we are working on the servers, so we can retain the installed package state different server instances. 
+
 
 ### Walkthru 4
 
