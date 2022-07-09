@@ -66,4 +66,13 @@ if we want to use the final arguement of the previous line of a terminal command
 for example `mkdir /storage/cfg`
 now we can reference the arguement `/storage/cfg` in a new commmand for example `mv .local/ !$` which will move the `.local` folder to the `/storage/cfg` location
 
+### Walkthru 5
+
+learning vim, definitely an intimidating text editor but Jeremy uses it with ease, there are alot of shortcuts:
+
+`:q!` quit without saving. `:` enters EX mode, `q` is quit. `!` says i am sure and supresses any dialogue about closing without saving.
+`:wq` write and quite. `:w` writes all changes to file. `:w filename` will write to a file. adding the `q` quits after saving.
+`i` enter insert mode, one of the edit modes for vim, if we are not in an edit mode we cannot alter the text in a document.
+`Esc` exit insert mode or EX mode, and return to command mode.
+
 
