@@ -71,7 +71,7 @@ now we can reference the arguement `/storage/cfg` in a new commmand for example 
 learning vim, definitely an intimidating text editor but Jeremy uses it with ease and shows why it is powerful despite having a steep learning curve and so many keyboard shortcuts:
 
 - `:q!` quit without saving. `:` enters EX mode, `q` is quit. `!` says i am sure and supresses any dialogue about closing without saving.
-- `:wq` write and quite. `:w` writes all changes to file. `:w filename` will write to a file. adding the `q` quits after saving.
+- `:wq` write and quite. `:w` writes all changes to file. `:w filename` will write to a file named `filename`. adding the `q` quits after saving.
 - `i` enter insert mode, one of the edit modes for vim, if we are not in an edit mode we cannot alter the text in a document.
 - `Esc` exit insert mode or EX mode, and return to command mode.
 - `u` Undo
@@ -79,7 +79,14 @@ learning vim, definitely an intimidating text editor but Jeremy uses it with eas
 - Use `fg` in the terminal to bring vim back into the foreground.
 - Use `jobs` to see processes running in the background.
 
--`o` open new line of text below current cursor position and enter inster mode, ready for text entry.
+- `o` open new line of text below current cursor position and enter insert mode, ready for text entry.
 - `Shift + o` open a new line of text above the current curor position.
+- `Shift + a` append current line by moving cursor to end of line and enteirng insert mode.
+
+#### Motions
 - `w` to move forwards one word
 - `b` to move backwards by one word
+- `j` move down one line or use curor down arrow
+- `k` move up one line or use cursor up arrow
+- `h` move left one chracter or use left arrow
+- `l` move right one character or use right arrow
