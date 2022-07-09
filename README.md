@@ -33,7 +33,8 @@ Other shortcuts in linux:
 - `Ctrl + e` : move to start of line
 - `Ctrl + a` : move to end of line
 -  `cd` to change to home directory
--  `cd /
+-  `cd /` change to root directory
+-  `pushd` followed by a directory to change to that directory with memory of current location, `popd` to return to location in memory.
 
 `!!` run last command
 `!` followed by some text will run last command matching that text
@@ -82,6 +83,7 @@ learning vim, definitely an intimidating text editor but Jeremy uses it with eas
 - `o` open new line of text below current cursor position and enter insert mode, ready for text entry.
 - `Shift + o` open a new line of text above the current curor position.
 - `Shift + a` append current line by moving cursor to end of line and enteirng insert mode.
+- `x` cross out (delete) character when in insert mode
 
 #### Motions
 - `w` to move forwards one word
@@ -90,3 +92,9 @@ learning vim, definitely an intimidating text editor but Jeremy uses it with eas
 - `k` move up one line or use cursor up arrow
 - `h` move left one chracter or use left arrow
 - `l` move right one character or use right arrow
+-  `Shift + }` move to begining of next paragraph
+
+motions can be repeated multiple times and combined with commands which is where we start to see some of the power of vim.
+
+- `2w` moves forwards 2 words.
+- `4j` moves down 4 lines
