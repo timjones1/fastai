@@ -1,4 +1,5 @@
-# Fast.ai
+# Fast.ai - Deep Learning for coders 2022 with University of Queensland
+
 Base for notes and code as part of fast.ai Deep Learning for Coders V5 live course with University of Queensland.
 
 ### Lessons 1 & 2
