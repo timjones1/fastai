@@ -104,7 +104,7 @@ motions can be repeated multiple times and combined with commands which is where
 
 #### Live Coding 7
 
-`scp` to copy files over ssh to a remote machine. `rsync` is the newer way to copy incrementally `scp` has been officially deprecated.
+`scp` to copy files over ssh to a remote machine, scp = Secure Copy over SSH. `rsync` is the newer way to copy incrementally `scp` has been officially deprecated.
 
 Shortcuts can be created for use inside the linux terminal to reference remote servers using the file `.ssh/config` , set `Host Local` and then this can be referenced as `:local` from the terminal.
 
@@ -114,7 +114,23 @@ Shortcuts can be created for use inside the linux terminal to reference remote s
     LocalForward 8889 127.0.0.1:8888 # port forwarding settings
 `
     
- 
+Piping commands in the terminal using the `|` command
+
+`ls train_images | head`  can be used to pipe the contents of a directory to the head command and we will only have the top 10 lines returned.
+
+`ls train_images | wc -l` for counting the number of files, wc stands for word count, but we need to add -l to count the number of lines.
+
+`ls train_images | tail` to view the final records in the folder.
+
+These pipiong commands can be used on .csv files as well to view the first/last records, count the number of records or to search for results by piping to the `grep` command.
+
+`cat train.csv | head` will pipe the contents of the train.csv file to head which will only access the first 10 by default.
+
+`cat train.csv | grep ADT45` to find instances of this text in the contents of the file.
+
+
+
+
  
 
 
