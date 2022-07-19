@@ -98,3 +98,22 @@ motions can be repeated multiple times and combined with commands which is where
 
 - `2w` moves forwards 2 words.
 - `4j` moves down 4 lines
+
+#### Walkthru 6 aka Live Coding session 6.
+
+#### Live Coding 7
+
+`scp` to copy files over ssh to a remote machine. `rsync` is the newer way to copy incrementally `scp` has been officially deprecated.
+
+Shortcuts can be created for use inside the linux terminal to reference remote servers using the file `.ssh/config` , set `Host Local` and then this can be referenced as `:local` from the terminal.
+
+`Host Local
+    Hostname 192.168.0.20  #  ip address of GPU server
+    User timjones1
+    LocalForward 8889 127.0.0.1:8888 # port forwarding settings
+`
+    
+ 
+ 
+
+
