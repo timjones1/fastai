@@ -108,11 +108,11 @@ motions can be repeated multiple times and combined with commands which is where
 
 Shortcuts can be created for use inside the linux terminal to reference remote servers using the file `.ssh/config` , set `Host Local` and then this can be referenced as `:local` from the terminal.
 
-`Host Local
+```Host Local
     Hostname 192.168.0.20  #  ip address of GPU server
     User timjones1
     LocalForward 8889 127.0.0.1:8888 # port forwarding settings
-`
+```
     
 Piping commands in the terminal using the `|` command
 
