@@ -139,8 +139,7 @@ Host local
  LocalForward 8888 127.0.0.1:8888
  ```
  
- so now we can use the command localhost:8888
-
+ so now we can use the command localhost:8888 to access the the jupyter server running on our local GPU machine 
 
 
 
