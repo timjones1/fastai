@@ -102,7 +102,7 @@ motions can be repeated multiple times and combined with commands which is where
 
 #### Walkthru 6 aka Live Coding session 6.
 
-#### Live Coding 7
+### Live Coding 7
 
 `scp` to copy files over ssh to a remote machine, scp = Secure Copy over SSH. `rsync` is the newer way to copy incrementally `scp` has been officially deprecated.
 
@@ -127,6 +127,22 @@ These pipiong commands can be used on .csv files as well to view the first/last 
 `cat train.csv | head` will pipe the contents of the train.csv file to head which will only access the first 10 by default.
 
 `cat train.csv | grep ADT45` to find instances of this text in the contents of the file.
+
+### Live Coding 8
+
+forwarding ports in linux so that we can use jupyterlab from a remote machine when connecting via ssh. we can set up ssh forwarding and an alias for other machines in a `config` file in our `.ssh` folder
+
+```
+Host local
+ Hostname 192.168.1.101
+ User timjo
+ LocalForward 8888 127.0.0.1:8888
+ ```
+ 
+ so now we can use the command localhost:8888
+
+
+
 
 
 
